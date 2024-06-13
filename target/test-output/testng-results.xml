@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T12:06:07 IST" name="Suite" finished-at="2024-06-06T12:16:28 IST" duration-ms="620434">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-06T12:06:07 IST" name="Test" finished-at="2024-06-06T12:16:28 IST" duration-ms="620434">
+      <class name="com.qf.androidautomation.runner.TestRunner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:05:59 IST" name="setUp" finished-at="2024-06-06T12:06:07 IST" duration-ms="7922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:06:07 IST" name="setUpClass" finished-at="2024-06-06T12:06:07 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4751e8b9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:06:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:06:22 IST" duration-ms="14441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User login with invalid  password credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Click on the New loan button on Dashboard"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:06:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:07:27 IST" duration-ms="65009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fill out the financial eligibility form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Apply new loan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:07:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:07:31 IST" duration-ms="4100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["If User financial eligible to recive the loan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ComodityPurchase and contract sign"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:07:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:07:47 IST" duration-ms="16044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["After loan amount and comodity purchase user should verify the bank account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ComodityPurchase and contract sign"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:07:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:08:44 IST" duration-ms="56698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["After entering the bank account user should sign the e-contract"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ComodityPurchase and contract sign"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:08:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:08:52 IST" duration-ms="8513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["After contract sign IBAN number verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Back Office actions for new loan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:08:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:09:10 IST" duration-ms="17893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["After IBAN number verification is done"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Back Office actions for new loan"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:09:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:15:54 IST" duration-ms="403530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To withdrawal loan amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Withdraw loam amount from wallet to customer bank account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:15:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:16:20 IST" duration-ms="26124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User tries changing the language"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My profile scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:16:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-06T12:16:28 IST" duration-ms="7765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User will logout from app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My profile scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:16:28 IST" name="tearDownClass" finished-at="2024-06-06T12:16:28 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qf.androidautomation.runner.TestRunner@1a3869f4]" started-at="2024-06-06T12:16:33 IST" name="tearDown" finished-at="2024-06-06T12:16:33 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qf.androidautomation.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
